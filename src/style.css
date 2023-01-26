@@ -1,0 +1,139 @@
+* {
+  font-family: sans-serif;
+}
+
+.conatiner {
+  width: 60%;
+  height: 90vh;
+  margin: 0 auto;
+  display: block;
+  overflow: auto;
+}
+
+.list-container {
+  width: 59.3%;
+  height: 80vh;
+  position: absolute;
+  margin: 30px 0;
+  background-color: #f6f6f6;
+  overflow: auto;
+}
+
+.task {
+  width: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+  gap: 20px;
+  border: 1px solid #cdcdcd;
+  margin-top: 50px;
+  box-shadow: 0 0 5px 3px black;
+}
+
+.title,
+.add-list,
+.task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #cdcdcd;
+  align-items: baseline;
+}
+
+.refresh {
+  background-color: #fff;
+  border: 0;
+  margin-right: 10px;
+}
+
+.count-task {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  background: rgb(240, 72, 72);
+  border-radius: 7px;
+  line-height: 14px;
+  font-size: 9px;
+  min-width: 14px;
+  padding: 0 2px;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: white 0 0 0 2px;
+  opacity: 1;
+  transform: scale(1);
+  transition: all 100ms ease-in-out 0s;
+}
+
+.container-todo {
+  width: 100%;
+}
+
+.form-list {
+  border-bottom: 1px solid #cdcdcd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-element,
+.input-element:focus {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  height: 30px;
+  padding: 10px;
+  border-style: none;
+  outline: none;
+  max-width: 100%;
+}
+
+.addbtn {
+  max-width: 100%;
+  border-style: none;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.task-item {
+  padding: 0;
+  list-style: none;
+}
+
+.task-item li {
+  display: flex;
+  gap: 2px;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #cdcdcd;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.task-item button {
+  border-style: none;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.task-item p {
+  background-color: #fff;
+  outline: none;
+}
+
+.clear-all-tasks {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #cdcdcd;
+  outline: none;
+  border: none;
+  padding: 18px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+@media (max-width: 480px) {
+  .form-list {
+    max-width: 50%;
+    border-bottom: 1px solid #cdcdcd;
+    display: flex;
+    justify-content: space-between;
+  }
+}
