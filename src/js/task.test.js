@@ -1,7 +1,6 @@
 import Todolist from './task.js';
 import TaskStatus from './taskstatus.js';
 
-// document.body.innerHTML = '<ul class=\'task-item\'></ul>';
 describe('Add task', () => {
   test('array not to be null', () => {
     const task = new Todolist();
