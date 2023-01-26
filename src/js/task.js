@@ -1,14 +1,6 @@
-/* eslint-disable max-classes-per-file */
-/* eslint-disable no-use-before-define */
 import TaskStatus from './taskstatus.js';
+import Tasks from './tasks.js';
 
-class Tasks {
-  constructor(description, completed = false, index) {
-    this.description = description;
-    this.completed = completed;
-    this.index = index;
-  }
-}
 export default class Todolist {
   constructor() {
     this.taskDtata = [];
