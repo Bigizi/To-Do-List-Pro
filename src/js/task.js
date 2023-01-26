@@ -1,6 +1,7 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable no-use-before-define */
 import TaskStatus from './taskstatus.js';
+
 class Tasks {
   constructor(description, completed = false, index) {
     this.description = description;
