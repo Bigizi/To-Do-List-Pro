@@ -1,4 +1,3 @@
-/* eslint no-alert: "error" */
 
 import './style.css';
 import Todolist from './js/task.js';

@@ -1,7 +1,6 @@
 import Todolist from './task.js';
 import TaskStatus from './taskstatus.js';
 
-// document.body.innerHTML = '<ul class=\'task-item\'></ul>';
 describe('Add task', () => {
   test('array not to be null', () => {
     const task = new Todolist();
@@ -54,7 +53,6 @@ describe('Editing', () => {
     task.addtask('Microverse2', false, 2);
     task.updatetask(2, 'Microverse2');
     task.taskDtata[2].description = 'Launch Break';
-    // task.removetask(1);
     expect(task.taskDtata[2].description).toEqual('Launch Break');
   });
 });
