@@ -32,8 +32,6 @@ It is has details about webpack configuration
 ### Tech Stack <a name="tech-stack"></a>
 
 > This project is built in HTML, CSS and Javascript
-
-<details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">HTML</a></li>
@@ -44,8 +42,6 @@ It is has details about webpack configuration
   <ul>
     <li><a href="https://reactjs.org/">JAVASCRIPT</a></li>
   </ul>
-</details>
-<details>
 
 <!-- Features -->
 
@@ -138,4 +134,3 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 > I would like to thank all my coding partners, morning session team and stand up call team for the support.
 <p align="right">(<a href="#acknowledgements">back to top</a>)</p>
-
