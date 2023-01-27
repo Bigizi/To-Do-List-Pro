@@ -22,7 +22,7 @@
 - [📝 License](#license)
 
 
-# 📖 [Crispin_Milestone_Portfolio] <a name="about-project"></a>
+# 📖 [To_Do_List_Project] <a name="about-project"></a>
 
 **[Milestone]** is a project developed using HTML, CSS, and vanilla Javascript.
 It is has details about webpack configuration
