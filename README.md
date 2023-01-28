@@ -57,7 +57,7 @@ It is has details about webpack configuration
 
 > Here is the where the project is deployed and video presentation.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://bigizi.github.io/To-Do-List-Pro/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
