@@ -1,5 +1,3 @@
-/* eslint-disable import/no-cycle */
-
 export default class TaskStatus {
   constructor() {
     this.completed = false;
